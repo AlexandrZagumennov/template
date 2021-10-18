@@ -1,0 +1,151 @@
+.footer {
+	background: #2F324B;
+	padding: 45px 0;
+	color: #FFFFFF;
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__row-item_logo {
+	font-size: 12px;
+	line-height: 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__logo {
+	width: 68px;
+	height: 68px;
+	background: url(../img/header/Logo.svg) no-repeat;
+	margin-right: 19px;
+}
+
+.footer__item_copywryte {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+
+.footer__contact-block {
+	color:#fff;
+}
+
+.footer__phone {
+	display: block;
+	font-size: 23.85px;
+	line-height: 28px;
+	text-align: center;
+	margin-bottom: 3px;
+	transition: all 0.3s ease;
+}
+
+.footer__phone:hover {
+	transform: scale(0.9);
+}
+
+.footer__callback {
+	display: block;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	margin-bottom: 1px;
+	transition: all 0.3s ease;
+}
+
+.footer__callback:hover {
+	transform: scale(0.9);
+}
+
+.footer__callback::after {
+	content: " ";
+	display: block;
+	width: 132px;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 0 auto;
+}
+
+@media (max-width: 1054px) {
+	.footer {
+		padding-bottom: 49px;
+	}
+
+	.footer__item_copywryte {
+		opacity: 0.5;
+	}
+
+	.footer__logo {
+		width: 60px;
+		height: 60px;
+		background-size: 100% 100%;
+	}
+
+	.footer__phone {
+		font-size: 21px;
+		line-height: 25px;
+	}
+
+	.footer__callback {
+		font-size: 13px;
+		line-height: 15px;
+	}
+
+	.footer__callback::after {
+		width: 106px;
+	}
+}
+
+@media (max-width: 576px) {
+	.footer {
+		padding-bottom: 0;
+	}
+
+	.footer__row {
+		flex-wrap: wrap;
+	}
+
+	.footer__row-item:not(:last-child) {
+		padding: 25px 0;
+	}
+
+	.footer__phone, .footer__callback {
+		display: none;
+	}
+
+	.footer__contact-block {
+		width: 24px;
+		height: 24px;
+		background: url(../img/footer/phone.svg) no-repeat;
+	}
+
+	.footer__item_copywryte {
+		width: 100%;
+		padding: 15px 0;
+		text-align: center;
+		background-color: #2A2C3F;
+		order: 1;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer__logo {
+		width: 30px;
+		height: 30px;
+	}
+
+	.footer__row-item_logo {
+		font-size: 8px;
+		line-height: 11px;
+	}
+
+	.footer__text {
+		font-size: 8px;
+		line-height: 11px;
+	}
+}
