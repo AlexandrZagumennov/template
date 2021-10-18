@@ -8,7 +8,7 @@
 .header__logo {
 	width: 68px;
 	height: 68px;
-	background: url(../img/header/phone.svg) no-repeat;
+	background: url(../img/header/Logo.svg) no-repeat;
 }
 
 .header__contact-block {
@@ -86,7 +86,6 @@
 	.header__logo {
 		width: 30px;
 		height: 30px;
-		background-size: 100% 100%;
 	}
 
 	.header__phone, .header__callback {
@@ -96,6 +95,6 @@
 	.header__contact-block {
 		width: 24px;
 		height: 24px;
-		background: url(../img/header/call.svg) no-repeat;
+		background: url(../img/header/phone.svg) no-repeat;
 	}
 }
