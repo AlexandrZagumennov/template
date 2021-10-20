@@ -25,11 +25,13 @@
 	margin-right: 19px;
 }
 
-.footer__item_copywryte {
+.footer__copywryte-link {
+	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 17px;
 	color: #FFFFFF;
+	letter-spacing: 0.6px;
 }
 
 .footer__contact-block {
@@ -41,7 +43,7 @@
 	font-size: 23.85px;
 	line-height: 28px;
 	text-align: center;
-	margin-bottom: 3px;
+	margin-bottom: 6px;
 	transition: all 0.3s ease;
 }
 

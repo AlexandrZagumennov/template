@@ -3,10 +3,11 @@
 }
 
 .form__title {
+	text-align: center;
+	font-style: normal;
 	font-weight: bold;
 	font-size: 35px;
 	line-height: 41px;
-	text-align: center;
 	color: #FFFFFF;
 	margin-bottom: 16px;
 }
@@ -32,11 +33,17 @@
 .form__input {
 	display: block;
 	width: 100%;
-	height: 44px;
+	height: 46px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 	padding-left: 23px;
 	background: none;
+}
+
+.form__input::placeholder {
+	font-size: 22px;
+	line-height: 26px;
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .form__btn {
@@ -64,8 +71,8 @@
 .form__text {
 	display: block;
 	margin: 0 auto;
-	font-size: 17px;
-	line-height: 20px;
+	font-size: 20px;
+	line-height: 23px;
 	text-align: center;
 	color: #FFFFFF;
 }

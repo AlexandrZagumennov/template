@@ -8,7 +8,7 @@
 .header__logo {
 	width: 68px;
 	height: 68px;
-	background: url(../img/header/Logo.svg) no-repeat;
+	background: url(../img/header/Logo.png) 0 0/contain no-repeat;
 }
 
 .header__contact-block {
@@ -20,7 +20,7 @@
 	font-size: 23.85px;
 	line-height: 28px;
 	text-align: center;
-	margin-bottom: 3px;
+	margin-bottom: 6px;
 	transition: all 0.3s ease;
 }
 
